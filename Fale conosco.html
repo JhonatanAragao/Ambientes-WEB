@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco - Flex Modular</title>
+    <link rel="stylesheet" href="Css/style.css">
+<body>
+    <img src="Imagens/logo.jpg" width="20%" height="auto" id="logo">
+    <div class="cabecalho">
+        <header>
+            <fieldset><h1 id="titulo">Flex Modular</h1></a></fieldset>
+        </header>
+    </div>
+    <div class="menu">
+        <fieldset>
+            <table border="1">
+                <tr>
+                    <td><a href="/index.html">Início</a></td>
+                    <td><a href="/Produtos.html">Produtos</a></td>
+                    <td><a href="/Fale conosco.html">Fale conosco</a></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    <br><br>
+    <form>
+        <fieldset class="grupo"> 
+
+            <div>
+                <label for="nome"><strong>Nome: </strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label for="sobrenome"><strong>Sobrenome: </strong></label>
+                <input type="emai" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div>
+                <label for="email"><strong>E-mail: </strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+        </fieldset>
+
+            <!--Salvar informações-->
+            <div>
+              <input type="checkbox">
+              <label>Salvar informações</label>
+            </div><br>
+
+            <div>
+                <label>Assunto:</label>
+                <select>
+                  <option>Tornar-se representante</option>
+                  <option>Compras</option>
+                  <option>Sugestões</option>
+                  <option>Reembolso</option>
+                  <option>Outro</option>
+                </select>
+              </div><br>
+             
+            <div>
+                <label>Deseja obter ofertas por email?</label>
+                <label><input type="radio" name="atendimento" value="barba" checked>Sim</label>
+                <label><input type="radio" name="atendimento" value="bigode">Não</label>
+            </div>
+            <div>
+                <br>
+                <label><strong>Deseja destacar alguma informação adicional para o seu atendimento?</strong></label>
+                <br>
+                <textarea rows="6" name="destaque"></textarea><br>
+                <button type="submit" class="botao">Enviar</button>
+            </div>
+        </form> 
+</body>
+</html>

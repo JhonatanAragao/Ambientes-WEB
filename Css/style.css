@@ -1,7 +1,66 @@
+/*TAG's*/
 #titulo {
     text-align: center;
 }
 
 body {
     background-image: url(../Imagens/fundo.jpg) ;
+}
+fieldset {
+    border: 0;
+    }
+img {
+padding: 1%;
+}
+iframe {
+    width: 90%;
+    margin-left: 2em;
+}
+h3 {
+    margin-left: 2em;
+
+}
+form {
+    margin-left: 35%;
+    font-size: 22px;
+    align-items: left;
+
+}
+
+/*Classes*/
+.cabecalho {
+    background-color: black;
+    color:  white;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0%;
+}
+.menu {
+    margin-left: 495px;
+    font-size: 22px;
+    
+
+}
+.Caixa {
+    display: flex;
+    margin-left: 8em;
+}
+.botao {
+    background-color: black;
+    color: white;
+}
+.grupo {
+    margin-left: -0.75em;
+    width: 22px;
+}
+
+
+/*ID's*/
+#logo {
+    margin-left: 2em;
+}
+#imgtema {
+    width: 95%;
+    margin-left: 2em;
+    margin-right: 2em;
 }
